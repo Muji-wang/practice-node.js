@@ -1,0 +1,708 @@
+{
+  "table": "FakeUser",
+  "endpoint": "http://localhost:8000",
+  "exportedAt": "2025-09-09T08:26:42.547Z",
+  "count": 100,
+  "items": [
+    {
+      "name": "Grace Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u093",
+      "email": "grace.chang+u093@example.com",
+      "grade": 9
+    },
+    {
+      "name": "Emily Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u002",
+      "email": "emily.wang+u002@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Tom Hsu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u054",
+      "email": "tom.hsu+u054@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Quinn Tsai",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u070",
+      "email": "quinn.tsai+u070@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Quinn Liu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u032",
+      "email": "quinn.liu+u032@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Owen Tsai",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u089",
+      "email": "owen.tsai+u089@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Hank Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u009",
+      "email": "hank.huang+u009@example.com",
+      "grade": 9
+    },
+    {
+      "name": "Tom Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u082",
+      "email": "tom.huang+u082@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Owen Tsai",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u006",
+      "email": "owen.tsai+u006@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Grace Liu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u027",
+      "email": "grace.liu+u027@example.com",
+      "grade": 3
+    },
+    {
+      "name": "Jack Lin",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u063",
+      "email": "jack.lin+u063@example.com",
+      "grade": 3
+    },
+    {
+      "name": "Kim Tsai",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u066",
+      "email": "kim.tsai+u066@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Jack Yang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u091",
+      "email": "jack.yang+u091@example.com",
+      "grade": 7
+    },
+    {
+      "name": "Hank Chen",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u043",
+      "email": "hank.chen+u043@example.com",
+      "grade": 7
+    },
+    {
+      "name": "Mia Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u064",
+      "email": "mia.wu+u064@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Ray Chen",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u058",
+      "email": "ray.chen+u058@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Grace Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u097",
+      "email": "grace.huang+u097@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Mia Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u026",
+      "email": "mia.wang+u026@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Tom Tsai",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u036",
+      "email": "tom.tsai+u036@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Kim Tsai",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u068",
+      "email": "kim.tsai+u068@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Grace Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u076",
+      "email": "grace.chang+u076@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Frank Chen",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u098",
+      "email": "frank.chen+u098@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Kim Li",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u078",
+      "email": "kim.li+u078@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Quinn Liu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u084",
+      "email": "quinn.liu+u084@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Owen Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u071",
+      "email": "owen.chang+u071@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Jack Lin",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u024",
+      "email": "jack.lin+u024@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Grace Kuo",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u028",
+      "email": "grace.kuo+u028@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Ivy Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u035",
+      "email": "ivy.chang+u035@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Frank Chou",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u087",
+      "email": "frank.chou+u087@example.com",
+      "grade": 3
+    },
+    {
+      "name": "Carol Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u094",
+      "email": "carol.zhang+u094@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Hank Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u005",
+      "email": "hank.wang+u005@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Jack Kuo",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u042",
+      "email": "jack.kuo+u042@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Quinn Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u056",
+      "email": "quinn.wu+u056@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Alice Liu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u004",
+      "email": "alice.liu+u004@example.com",
+      "grade": 4
+    },
+    {
+      "name": "David Kuo",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u044",
+      "email": "david.kuo+u044@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Kim Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u031",
+      "email": "kim.wang+u031@example.com",
+      "grade": 7
+    },
+    {
+      "name": "Frank Hsieh",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u011",
+      "email": "frank.hsieh+u011@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Sara Chou",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u025",
+      "email": "sara.chou+u025@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Quinn Chen",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u029",
+      "email": "quinn.chen+u029@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Jack Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u039",
+      "email": "jack.huang+u039@example.com",
+      "grade": 3
+    },
+    {
+      "name": "Sara Li",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u085",
+      "email": "sara.li+u085@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Carol Hsieh",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u090",
+      "email": "carol.hsieh+u090@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Owen Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u019",
+      "email": "owen.huang+u019@example.com",
+      "grade": 7
+    },
+    {
+      "name": "Sara Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u072",
+      "email": "sara.zhang+u072@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Owen Kuo",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u079",
+      "email": "owen.kuo+u079@example.com",
+      "grade": 7
+    },
+    {
+      "name": "Tom Lin",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u018",
+      "email": "tom.lin+u018@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Frank Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u017",
+      "email": "frank.chang+u017@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Sara Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u060",
+      "email": "sara.chang+u060@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Alice Hsieh",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u034",
+      "email": "alice.hsieh+u034@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Sara Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u052",
+      "email": "sara.wu+u052@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Nina Tsai",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u049",
+      "email": "nina.tsai+u049@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Tom Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u083",
+      "email": "tom.huang+u083@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Emily Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u008",
+      "email": "emily.zhang+u008@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Alice Li",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u003",
+      "email": "alice.li+u003@example.com",
+      "grade": 3
+    },
+    {
+      "name": "Ray Lin",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u073",
+      "email": "ray.lin+u073@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Hank Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u038",
+      "email": "hank.wang+u038@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Carol Liu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u074",
+      "email": "carol.liu+u074@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Frank Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u030",
+      "email": "frank.wu+u030@example.com",
+      "grade": 6
+    },
+    {
+      "name": "Ray Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u080",
+      "email": "ray.wu+u080@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Mia Kuo",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u065",
+      "email": "mia.kuo+u065@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Quinn Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u069",
+      "email": "quinn.huang+u069@example.com",
+      "grade": 9
+    },
+    {
+      "name": "Paul Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u010",
+      "email": "paul.wu+u010@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Grace Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u062",
+      "email": "grace.wu+u062@example.com",
+      "grade": 2
+    },
+    {
+      "name": "David Hsieh",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u053",
+      "email": "david.hsieh+u053@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Paul Chou",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u016",
+      "email": "paul.chou+u016@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Carol Hsu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u092",
+      "email": "carol.hsu+u092@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Owen Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u001",
+      "email": "owen.zhang+u001@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Ivy Hsu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u086",
+      "email": "ivy.hsu+u086@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Jack Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u007",
+      "email": "jack.wu+u007@example.com",
+      "grade": 7
+    },
+    {
+      "name": "Mia Chen",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u046",
+      "email": "mia.chen+u046@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Grace Hsieh",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u020",
+      "email": "grace.hsieh+u020@example.com",
+      "grade": 8
+    },
+    {
+      "name": "Ray Chen",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u021",
+      "email": "ray.chen+u021@example.com",
+      "grade": 9
+    },
+    {
+      "name": "Jack Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u055",
+      "email": "jack.wu+u055@example.com",
+      "grade": 7
+    },
+    {
+      "name": "David Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u015",
+      "email": "david.zhang+u015@example.com",
+      "grade": 3
+    },
+    {
+      "name": "Leo Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u047",
+      "email": "leo.zhang+u047@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Jack Chou",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u012",
+      "email": "jack.chou+u012@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Jack Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u088",
+      "email": "jack.wang+u088@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Emily Yang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u075",
+      "email": "emily.yang+u075@example.com",
+      "grade": 3
+    },
+    {
+      "name": "Leo Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u013",
+      "email": "leo.wu+u013@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Emily Yang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u095",
+      "email": "emily.yang+u095@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Quinn Li",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u040",
+      "email": "quinn.li+u040@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Tom Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u023",
+      "email": "tom.wang+u023@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Hank Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u022",
+      "email": "hank.zhang+u022@example.com",
+      "grade": 10
+    },
+    {
+      "name": "Kim Yang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u096",
+      "email": "kim.yang+u096@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Ivy Hsieh",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u059",
+      "email": "ivy.hsieh+u059@example.com",
+      "grade": 11
+    },
+    {
+      "name": "Ivy Liu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u037",
+      "email": "ivy.liu+u037@example.com",
+      "grade": 1
+    },
+    {
+      "name": "Frank Lin",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u077",
+      "email": "frank.lin+u077@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Alice Hsu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u033",
+      "email": "alice.hsu+u033@example.com",
+      "grade": 9
+    },
+    {
+      "name": "Paul Chen",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u051",
+      "email": "paul.chen+u051@example.com",
+      "grade": 3
+    },
+    {
+      "name": "David Lin",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u014",
+      "email": "david.lin+u014@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Bob Hsu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u100",
+      "email": "bob.hsu+u100@example.com",
+      "grade": 4
+    },
+    {
+      "name": "Leo Kuo",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u041",
+      "email": "leo.kuo+u041@example.com",
+      "grade": 5
+    },
+    {
+      "name": "Grace Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u061",
+      "email": "grace.chang+u061@example.com",
+      "grade": 1
+    },
+    {
+      "name": "David Huang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u048",
+      "email": "david.huang+u048@example.com",
+      "grade": 12
+    },
+    {
+      "name": "Alice Zhang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u099",
+      "email": "alice.zhang+u099@example.com",
+      "grade": 3
+    },
+    {
+      "name": "David Chang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u067",
+      "email": "david.chang+u067@example.com",
+      "grade": 7
+    },
+    {
+      "name": "Hank Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u050",
+      "email": "hank.wang+u050@example.com",
+      "grade": 2
+    },
+    {
+      "name": "Frank Wang",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u081",
+      "email": "frank.wang+u081@example.com",
+      "grade": 9
+    },
+    {
+      "name": "Ivy Wu",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u057",
+      "email": "ivy.wu+u057@example.com",
+      "grade": 9
+    },
+    {
+      "name": "Ray Kuo",
+      "createdAt": "2025-09-09T08:26:19.929Z",
+      "id": "u045",
+      "email": "ray.kuo+u045@example.com",
+      "grade": 9
+    }
+  ]
+}
