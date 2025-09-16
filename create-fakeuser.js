@@ -19,10 +19,10 @@ const {
   async function ensureTable() {
     try {
       await ddb.send(new DescribeTableCommand({ TableName: tableName }));
-      console.log(`ℹ️ 資料表已存在：${tableName}`);
+      console.log(`資料表已存在：${tableName}`);
     } catch (e) {
       if (e.name !== "ResourceNotFoundException") throw e;
-      console.log(`🆕 建立資料表：${tableName}`);
+      console.log(`建立資料表：${tableName}`);
       await ddb.send(new CreateTableCommand({
         TableName: tableName,
         AttributeDefinitions: [{ AttributeName: "id", AttributeType: "S" }],
@@ -30,7 +30,7 @@ const {
         BillingMode: "PAY_PER_REQUEST",
       }));
       await waitUntilTableExists({ client: ddb, maxWaitTime: 30 }, { TableName: tableName });
-      console.log("✅ 資料表已就緒");
+      console.log("資料表已就緒");
     }
   }
   
@@ -82,7 +82,7 @@ const {
   
   (async () => {
     const count = parseInt(process.argv[2] || "50", 10);
-    console.log(`本機種資料：${tableName}（${count} 筆）`);
+    console.log(`本機將匯出假資料：${tableName}（${count} 筆）`);
     await ensureTable();
     const items = genUsers(count);
     const ok = await batchPut(items);

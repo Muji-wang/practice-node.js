@@ -7,7 +7,7 @@ const tableName = "FakeUser";
 const outFile = "db_fakeuser.json";
 
 const clientCfg = {
-  region: "us-west-2",
+  region: "us-west-2",// 本機連線設定 僅提供資訊不實際應用
   endpoint: "http://localhost:8000",
   credentials: { accessKeyId: "fake", secretAccessKey: "fake" },
 };
@@ -19,7 +19,15 @@ async function scanAll() {
   let ExclusiveStartKey;
   do {
     const resp = await doc.send(new ScanCommand({ TableName: tableName, ExclusiveStartKey }));
-    if (resp.Items?.length) items.push(...resp.Items);
+    //?.為選擇性連結 如為null則不執行
+    if (resp.Items?.length){
+        items.push(...resp.Items);
+        // items.push(resp.Items)
+        // ...為展開運算子 
+        // 原寫法為items.push.apply(items, resp.Items);
+        // 寫為items.push(resp.Items)，整個 resp.Items 會被當作單一元素塞進去（變成巢狀陣列)
+    }
+
     ExclusiveStartKey = resp.LastEvaluatedKey;
   } while (ExclusiveStartKey);
   return items;

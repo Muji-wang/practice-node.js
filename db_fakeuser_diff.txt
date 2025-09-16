@@ -1,0 +1,20 @@
+Table: FakeUser
+Endpoint: http://localhost:8000
+ExportedAt: 2025-09-10T03:19:29.129Z
+
+== 檔案差異 ==
+A) db_fakeuser_flat.json：展開版（flat）
+   - 結構：一維陣列
+   - 總筆數：100
+   - 範例型別：typeof items[0] = object
+
+B) db_fakeuser_nested.json：巢狀版（nested）
+   - 結構：二維陣列（每頁一個子陣列）
+   - 頁數：1
+   - 各頁筆數：100
+   - 範例型別：Array.isArray(items[0]) = true
+   - 第一頁第一筆是否等同 flat[0]：true
+
+== 使用說明 ==
+- flat 檔案（db_fakeuser_flat.json）適合直接走資料列處理（map/filter/reduce）。
+- nested 檔案（db_fakeuser_nested.json）保留分頁邏輯，適合想檢視每次 Scan 回傳批次的情境。
