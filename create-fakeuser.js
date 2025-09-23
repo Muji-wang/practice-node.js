@@ -42,12 +42,14 @@ const {
     return Array.from({ length: n }, (_, i) => {
       const id = `u${pad(i+1)}`;
       const fn = pick(first), ln = pick(last);
+      const name = `${fn} ${ln}`;
       return {
         id,
         name: `${fn} ${ln}`,
         email: `${fn.toLowerCase()}.${ln.toLowerCase()}+${id}@example.com`,
-        grade: 1 + (i % 12),
-        createdAt: new Date().toISOString()
+        grade: 1 + (i % 12),//年級
+        createdAt: new Date().toISOString(),
+        nameInitial: name.normalize("NFKC").trim().toUpperCase().charAt(0)
       };
     });
   }
