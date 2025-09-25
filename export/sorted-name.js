@@ -49,6 +49,7 @@ async function askOrder() {
 // -- 排序設定
 const norm = (s) => (s ?? "").toString().normalize("NFKC").trim();
 const collator = new Intl.Collator("und", { sensitivity: "base", numeric: true, ignorePunctuation: true });
+//這段有問題
 function sortByName(users, order = "asc") {
   const dir = order === "desc" ? -1 : 1;
   return users.sort((a, b) => {
@@ -78,7 +79,7 @@ function sortByName(users, order = "asc") {
       count: sorted.length,
       items: sorted,
     };
-
+       
     await fs.writeFile(outFile, JSON.stringify(payload, null, 2), "utf8");
     console.log(`完成:${outFile}(按 name ${order} 排序，${sorted.length} 筆)`);
   } catch (e) {
