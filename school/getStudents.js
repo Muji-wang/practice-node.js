@@ -5,9 +5,9 @@ const { DynamoDBDocumentClient } = require('@aws-sdk/lib-dynamodb');
 
 const args = process.argv.slice(2);
 function getArg(k, d=null){ const h=args.find(a=>a.startsWith(k+'=')); return h? h.split('=').slice(1).join('='): d; }
-const table   = getArg('--table','Students');
+const table   = getArg('--table','fake-Students');
 const region  = getArg('--region', process.env.AWS_REGION || 'us-west-2');
-const endpoint = getArg('--endpoint', process.env.DDB_ENDPOINT || ''); // 本機就給 http://localhost:8000
+const endpoint = getArg('--endpoint', process.env.DDB_ENDPOINT || 'http://localhost:8000'); // 本機就給 http://localhost:8000
 const limit   = parseInt(getArg('--limit','10'), 10);
 
 (async () => {

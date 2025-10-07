@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run current file with DDB Local",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",               // program name 
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "env": {
+              "AWS_REGION": "us-west-2",
+              "AWS_ACCESS_KEY_ID": "fake",
+              "AWS_SECRET_ACCESS_KEY": "fake",
+              "DDB_ENDPOINT": "http://localhost:8000"
+            },
+            "skipFiles": ["<node_internals>/**"]
+        }
+    ]
+}
